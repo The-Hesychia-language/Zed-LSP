@@ -8,5 +8,5 @@ repository = "https://github.com/The-Hesychia-language/Zed-LSP"
 
 [grammars.hesychia]
 repository = "https://github.com/The-Hesychia-language/Zed-LSP"
-rev = "72cd9c4c0db00a2df2464118fd77726cfd521b68"
+rev = "66aa576145ca0a9c464ca6367f45615c31952788"
 path = "tree-sitter-hesychia"

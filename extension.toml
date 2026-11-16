@@ -1,0 +1,12 @@
+id = "hesychia"
+name = "Hesychia"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jude"]
+description = "Syntax highlighting for the Hesychia language"
+repository = "https://github.com/The-Hesychia-language/Zed-LSP"
+
+[grammars.hesychia]
+repository = "https://github.com/The-Hesychia-language/Zed-LSP"
+rev = "72cd9c4c0db00a2df2464118fd77726cfd521b68"
+path = "tree-sitter-hesychia"

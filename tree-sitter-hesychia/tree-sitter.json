@@ -1,0 +1,17 @@
+{
+  "grammars": [
+    {
+      "name": "hesychia",
+      "scope": "source.hesychia",
+      "path": ".",
+      "file-types": [
+        "hsy"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Hesychia grammar for editors"
+  }
+}

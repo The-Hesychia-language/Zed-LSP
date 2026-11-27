@@ -51,6 +51,7 @@
 (float) @number
 
 (string) @string
+(raw_string) @string
 (char) @string
 (format_string) @string
 (escape) @string.escape

@@ -89,6 +89,10 @@
           "named": true
         },
         {
+          "type": "raw_string",
+          "named": true
+        },
+        {
           "type": "select",
           "named": true
         },
@@ -189,6 +193,10 @@
         },
         {
           "type": "parenthesized",
+          "named": true
+        },
+        {
+          "type": "raw_string",
           "named": true
         },
         {
@@ -406,6 +414,10 @@
           "named": true
         },
         {
+          "type": "raw_string",
+          "named": true
+        },
+        {
           "type": "select",
           "named": true
         },
@@ -545,6 +557,10 @@
           "named": true
         },
         {
+          "type": "raw_string",
+          "named": true
+        },
+        {
           "type": "select",
           "named": true
         },
@@ -646,6 +662,10 @@
         },
         {
           "type": "parenthesized",
+          "named": true
+        },
+        {
+          "type": "raw_string",
           "named": true
         },
         {
@@ -1044,6 +1064,10 @@
   {
     "type": "raises",
     "named": false
+  },
+  {
+    "type": "raw_string",
+    "named": true
   },
   {
     "type": "return",

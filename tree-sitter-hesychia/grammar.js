@@ -43,6 +43,7 @@ module.exports = grammar({
       $.float,
       $.integer,
       $.string,
+      $.raw_string,
       $.format_string,
       $.char,
       $.operator,
@@ -104,6 +105,9 @@ module.exports = grammar({
       /"""([^"]|"[^"]|""[^"])*"""/,
       seq('"', repeat(choice(/[^"\\\n]/, /\\./)), '"'),
     )),
+
+    // `r"\d+"`: backslashes are text; `\"` does not end it.
+    raw_string: _ => token(seq('r"', repeat(choice(/[^"\\\n]/, /\\[^\n]/)), '"')),
 
     char: _ => token(seq("'", choice(/[^'\\\n]/, /\\./, /\\u\{[0-9a-fA-F]+\}/), "'")),
 

@@ -1,6 +1,6 @@
 # Hesychia for Zed
 
-Colors `.hsy` files in [Zed](https://zed.dev), in the manner of Python: keywords, types, functions, strings and what f-strings hold, numbers, comments. It also matches brackets, indents after a line ending with `:`, and lists functions and types in the outline.
+Colors `.hsy` files in [Zed](https://zed.dev), in the manner of Python: keywords, types, functions, strings (raw `r"..."` ones too) and what f-strings hold, numbers, comments. It also matches brackets, indents after a line ending with `:`, and lists functions and types in the outline.
 
 There is no language server yet: Zed colors with the Tree-sitter grammar in `tree-sitter-hesychia`.
 
